@@ -1,0 +1,27 @@
+<app-header></app-header>
+
+<div class="main">
+    <div class="Cart-Container">
+        <div class="Header">
+            <h3 class="Heading">Wish List</h3>
+        </div>
+        <div *ngFor="let i of wishListDetails.products" class="Cart-Items">
+            <div class="image-box">
+                <img src="../../assets/Ethnic_Kurta_W.JPG" [ngStyle]="{height:'120px'}" />
+            </div>
+            <div class="about">
+                <h1 class="title">{{i.name}}</h1>
+            </div>
+            <div class="prices">
+                <div class="amount">Rs.{{i.price}}</div>
+                <div class="remove"><button (click)="removeFromWishList(i.wishListID)">Remove</button></div>
+                <button (click)="addToCart(i.name,i.price,'',i.productID,i.sizesAvailable)">Add to Cart</button>
+                <app-product-details-modal #productDetailsModal ></app-product-details-modal>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<app-modal #modal [modalBody]="'Item has been removed from your cart.'"></app-modal>
+
+

@@ -1,0 +1,33 @@
+{
+    "id": "1",
+    "name": "User1",
+    "salary": "20000",
+    "expense": [
+        {
+            "id": 1,
+            "name": "product1",
+            "amount": 1000
+        },
+        {
+            "id": 2,
+            "name": "product2",
+            "amount": 1000
+        },
+        {
+            "id": 3,
+            "name": "product3",
+            "amount": 1000
+        },
+        {
+            "id": 4,
+            "name": "product4",
+            "amount": 1000
+        },
+        {
+            "id": "5",
+            "name": "product5",
+            "amount": "5000"
+        }
+    ],
+    "saving": 3000
+}

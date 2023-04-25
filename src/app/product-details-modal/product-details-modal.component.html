@@ -1,0 +1,12 @@
+<div #productDetailsModal class="container">
+  <div class="content">
+    <p>Select your size</p>
+    <button *ngFor="let i of productDetails.productSizesAvailable" (click)="getSize(i)">{{i}}</button>
+    <!-- <button (click)="getSize('XS')">XS</button>
+    <button (click)="getSize('S')">S</button>
+    <button (click)="getSize('L')">L</button>
+    <button (click)="getSize('XL')">XL</button>
+    <button (click)="getSize('XLL')">XLL</button> -->
+    <button (click)="close()">Close</button>
+  </div>
+  </div>

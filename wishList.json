@@ -1,0 +1,78 @@
+{
+    "products": [
+        {
+            "userID": "001",
+            "name": "Women Ethnic Kurta",
+            "price": "300.00",
+            "image": "",
+            "wishListID": 3,
+            "productID": "3",
+            "sizesAvailable": [
+                "XS",
+                "S",
+                "L",
+                "XL",
+                "XLL"
+            ]
+        },
+        {
+            "userID": "002",
+            "name": "Men Western Kurta",
+            "price": "700.00",
+            "image": "",
+            "wishListID": 3,
+            "productID": "2",
+            "sizesAvailable": [
+                "XS",
+                "S",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "userID": "002",
+            "name": "Women Ethnic Kurta",
+            "price": "300.00",
+            "image": "",
+            "wishListID": 3,
+            "productID": "3",
+            "sizesAvailable": [
+                "XS",
+                "S",
+                "L",
+                "XL",
+                "XLL"
+            ]
+        },
+        {
+            "userID": "002",
+            "name": "product4",
+            "price": "700.00",
+            "image": "",
+            "wishListID": 4,
+            "productID": "4",
+            "sizesAvailable": [
+                "XS",
+                "S",
+                "L",
+                "XL",
+                "XLL"
+            ]
+        },
+        {
+            "userID": "002",
+            "name": "product3",
+            "price": "700.00",
+            "image": "",
+            "wishListID": 5,
+            "productID": "3",
+            "sizesAvailable": [
+                "XS",
+                "S",
+                "L",
+                "XL",
+                "XLL"
+            ]
+        }
+    ]
+}

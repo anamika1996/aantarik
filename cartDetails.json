@@ -1,0 +1,38 @@
+{
+    "products": [
+        {
+            "userID": "002",
+            "name": "product1",
+            "price": "500.00",
+            "size": "S",
+            "image": "",
+            "cartID": 5,
+            "productID": "1",
+            "count": 1,
+            "sizesAvailable": [
+                "XS",
+                "S",
+                "L",
+                "XL",
+                "XLL"
+            ]
+        },
+        {
+            "userID": "001",
+            "name": "abc kurtaa",
+            "price": "500.00",
+            "size": "S",
+            "image": "",
+            "cartID": 1,
+            "productID": "1",
+            "count": 1,
+            "sizesAvailable": [
+                "XS",
+                "S",
+                "L",
+                "XL",
+                "XLL"
+            ]
+        }
+    ]
+}

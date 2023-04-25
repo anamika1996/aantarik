@@ -1,0 +1,19 @@
+<app-header></app-header>
+
+<div class="container">
+    <div class="row">
+      <div *ngFor="let i of productList.products" class="col-sm">
+          <div class="card">
+              <img src="../../assets/Ethnic_Kurta_W.JPG" alt="Denim Jeans" style="width:100%">
+              <h6>{{i.name}}{{i.productID}}</h6>
+              <p class="price">{{i.price}}</p>
+              <p><button (click)="addToCart(i.name,i.price,'',i.productID,i.sizesAvailable)">{{i.productID}}Add to Cart</button></p>
+              <app-product-details-modal #productDetailsModal ></app-product-details-modal>
+              <p><button (click)="addToWishList(i.name,i.price,i.productID,'',i.sizesAvailable)">Add to WishList</button></p>
+            </div>
+      </div>
+    </div>
+
+  </div>
+  <app-modal #modal [modalBody]="'Product has been added to your cart'"></app-modal>
+

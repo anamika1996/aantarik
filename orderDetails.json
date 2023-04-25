@@ -1,0 +1,15 @@
+{
+    "orders": [
+        {
+            "id": "3",
+            "userID": "001",
+            "invoiceNo": "product1",
+            "expectedArrival": "2000",
+            "cancellable": "N",
+            "processed": "Y",
+            "shipped": "N",
+            "enRoute": "N",
+            "arrived": "N"
+        }
+    ]
+}

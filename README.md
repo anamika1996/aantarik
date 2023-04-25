@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+ng serve --proxy-config proxy.conf.json
+
+cart ->
+product count increment, decrement -> done
+delete from cart, total price change based on products addition or deletion -> pending
+
+product->
+add product to cart, modal appears after adding -> done
+add to wishlist, adding duplicate items -> pending
+
+wishlist ->
+wishlist icon addition in header
+delete -> pending

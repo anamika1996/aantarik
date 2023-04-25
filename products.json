@@ -1,0 +1,42 @@
+{
+	"products":[{
+        "name": "Men Ethnic Kurta",
+        "productID":"1",
+        "price": "500.00",
+        "sizesAvailable": ["XS","S","L","XL","XLL"],
+        "image":"",
+        "count":[{"sizeName":"XS","sizeCount":"6"},{"sizeName":"S","sizeCount":"4"},{"sizeName":"L","sizeCount":"2"},{"sizeName":"XL","sizeCount":"3"},{"sizeName":"XLL","sizeCount":"4"}],
+        "inStock":"Y"
+
+    },
+	{
+        "name": "Men Western Kurta",
+        "productID":"2",
+        "price": "700.00",
+        "sizesAvailable": ["XS","S","L","XL"],
+        "image":"",
+        "count":[{"sizeName":"XS","sizeCount":"6"},{"sizeName":"S","sizeCount":"4"},{"sizeName":"L","sizeCount":"2"},{"sizeName":"XL","sizeCount":"3"},{"sizeName":"XLL","sizeCount":"4"}],
+        "inStock":"Y"
+    },
+    {
+        "name": "Women Ethnic Kurta",
+        "productID":"3",
+        "price": "300.00",
+        "sizesAvailable": ["XS","S","L","XL","XLL"],
+        "image":"",
+        "count":[{"sizeName":"XS","sizeCount":"6"},{"sizeName":"S","sizeCount":"4"},{"sizeName":"L","sizeCount":"2"},{"sizeName":"XL","sizeCount":"3"},{"sizeName":"XLL","sizeCount":"4"}],
+        "inStock":"Y"
+
+    },
+    {
+        "name": "Children Ethnic Kurta",
+        "productID":"4",
+        "price": "800.00",
+        "sizesAvailable": ["XS","S","L","XL","XLL"],
+        "image":"",
+        "count":[{"sizeName":"XS","sizeCount":"6"},{"sizeName":"S","sizeCount":"4"},{"sizeName":"L","sizeCount":"2"},{"sizeName":"XL","sizeCount":"3"},{"sizeName":"XLL","sizeCount":"4"}],
+        "inStock":"Y"
+
+    }
+]
+}

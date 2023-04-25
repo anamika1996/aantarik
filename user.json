@@ -1,0 +1,26 @@
+{
+	"users":[{
+		"userID":"001",
+		"username": "abc",
+		"password": "abc",
+		"gender":"female",
+		"email":"abc@gmail.com",
+		"phoneNo":"+918282819565"
+	},
+	{
+		"userID":"002",
+		"username": "green",
+		"password": "green",
+		"gender":"female",
+		"email":"abc@gmail.com",
+		"phoneNo":"+918282819565"
+	},
+	{
+		"userID":"003",
+		"username": "blue",
+		"password": "#00f",
+		"gender":"male",
+		"email":"abc@gmail.com",
+		"phoneNo":"+918282819565"
+	}]
+}
