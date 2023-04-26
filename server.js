@@ -14,6 +14,7 @@ const bodyParser = require('body-parser');
 //   // perform actions on the collection object
 //   client.close();
 // });
+app.use(cors())
 app.use(bodyParser.urlencoded({ extended: "false" }));
 app.use(express.static(__dirname+'/dist/MyApp'));
 app.use(express.json({extended: false})); 
