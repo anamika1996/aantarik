@@ -39,3 +39,17 @@ add to wishlist, adding duplicate items -> pending
 wishlist ->
 wishlist icon addition in header
 delete -> pending
+
+For deploying frontend on netlifly:
+
+Build command: ng build --prod
+Publish directory: dist/MyApp (you can get this from angular.json file, follow this directory, projects-> architect -> build ->options->utputpath, here it is "MyApp")
+
+if node version used in your project and node version used in netlifly do not match then declare eenvironment variables
+NODE_VERSION and NPM_VERSION.
+
+For deploying backend on render:
+
+Build Command: npm install
+Start Command: node server.js
+mention repository and branch name
