@@ -53,3 +53,8 @@ For deploying backend on render:
 Build Command: npm install
 Start Command: node server.js
 mention repository and branch name
+
+if services are deployed in different domain(ex:render.com) and frontend is deployed in another domain(ex:netlifly.com) then we have to use _redirects file to manage api calls from frontend to backend.
+
+/api/*  https://aantarik.onrender.com/api/:splat  200 (this is for routing api calls from frontend to backend)
+/*  /index.html 200  (this is for SPA)
