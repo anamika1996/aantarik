@@ -25,9 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
+git remote set-url origin https://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@github.com/Aantarik/aantarik.git
 ng serve --proxy-config proxy.conf.json
-
+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
 cart ->
 product count increment, decrement -> done
 delete from cart, total price change based on products addition or deletion -> pending
